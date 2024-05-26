@@ -1,0 +1,92 @@
+body {
+  background-color: #13274f;
+}
+
+.display {
+  border-radius: 12px;
+  background-color: #000;
+  color: #fff;
+  font-size: 17px;
+  margin-left: 2.5em;
+}
+h1 {
+  font-size: 48px;
+  color: #000;
+  text-align: center;
+}
+
+.container {
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 30%;
+  margin: 0 auto;
+  padding: 12px;
+  */
+  border: 2px solid black;
+  width: 500px;
+  height: 500px;
+  margin-left:30%;
+  margin-top:5%;
+  background-color: #fff;
+
+}
+
+.addtodo {
+  border-radius: 13px;
+  font-size: 15px;
+  padding: 5px;
+  background-color: #9dc2ec;
+}
+
+.alldelete {
+  border-radius: 13px;
+  font-size: 15px;
+  padding: 5px;
+  background-color: #9dc2ec;
+}
+.btn{
+  margin-left: 9em;
+}
+
+.container input {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+.container div {
+  margin-top: 16px;
+}
+
+#todoParent li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: rgb(181, 187, 194);
+  color: #000;
+}
+
+#todoParent li {
+    font-size: 18px;
+    margin-right: 30px;
+  }
+
+.edit {
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.delete {
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 5px;
+  background-color: #13274f;
+  color: #fff;
+}
+
